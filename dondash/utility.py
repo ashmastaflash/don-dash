@@ -4,7 +4,7 @@ class Validator(object):
 
     @classmethod
     def is_an_id(cls, input):
-        result = True
+        # result = True
         if type(input) is int:
             return False
         elif len(input) != 32:
